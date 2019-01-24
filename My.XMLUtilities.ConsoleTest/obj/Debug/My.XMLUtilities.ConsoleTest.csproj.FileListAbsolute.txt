@@ -1,0 +1,12 @@
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\bin\Debug\TestFiles\Creditnote_funny_alias.xml
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\bin\Debug\TestFiles\Invoice_funny_alias.xml
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\bin\Debug\My.XMLUtilities.ConsoleTest.exe.config
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\bin\Debug\My.XMLUtilities.ConsoleTest.exe
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\bin\Debug\My.XMLUtilities.ConsoleTest.pdb
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\bin\Debug\My.XMLUtilities.dll
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\bin\Debug\My.XMLUtilities.pdb
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\obj\Debug\My.XMLUtilities.ConsoleTest.csprojAssemblyReference.cache
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\obj\Debug\My.XMLUtilities.ConsoleTest.csproj.CoreCompileInputs.cache
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\obj\Debug\My.XMLUtilities.ConsoleTest.csproj.CopyComplete
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\obj\Debug\My.XMLUtilities.ConsoleTest.exe
+D:\GIT\My.XMLUtilities\My.XMLUtilities.ConsoleTest\obj\Debug\My.XMLUtilities.ConsoleTest.pdb

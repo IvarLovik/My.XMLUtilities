@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ns4:Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns3="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ns4="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <UBLVersionID>2.1</UBLVersionID>
+  <CustomizationID>urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:peppol5a:ver2.0:extended:urn:www.difi.no:ehf:faktura:ver2.0</CustomizationID>
+  <ProfileID>urn:www.cenbii.eu:profile:bii05:ver2.0</ProfileID>
+  <ID>246-18-1-000892</ID>
+  <IssueDate>2018-03-21</IssueDate>
+  <InvoiceTypeCode listID="UNCL1001">380</InvoiceTypeCode>
+  <Note>Vakuutusmaksuihin sisältyy vakuutusmaksuvero 24 %.</Note>
+  <DocumentCurrencyCode listID="ISO4217">EUR</DocumentCurrencyCode>
+  <ns3:InvoicePeriod>
+    <StartDate>2016-07-01</StartDate>
+    <EndDate>2017-09-30</EndDate>
+  </ns3:InvoicePeriod>
+  <ns3:ContractDocumentReference>
+    <ID>447612/1.1</ID>
+  </ns3:ContractDocumentReference>
+  <ns3:ContractDocumentReference>
+    <ID>447612/1.2</ID>
+  </ns3:ContractDocumentReference>
+  <ns3:ContractDocumentReference>
+    <ID>447612/1.3</ID>
+  </ns3:ContractDocumentReference>
+  <ns3:ContractDocumentReference>
+    <ID>447612/1.4</ID>
+  </ns3:ContractDocumentReference>
+  <ns3:ContractDocumentReference>
+    <ID>447612/1.5</ID>
+  </ns3:ContractDocumentReference>
+  <ns3:ContractDocumentReference>
+    <ID>447612/1.6</ID>
+  </ns3:ContractDocumentReference>
+  <ns3:ContractDocumentReference>
+    <ID>447612/1.7</ID>
+  </ns3:ContractDocumentReference>
+  <ns3:ContractDocumentReference>
+    <ID>447612/1.8</ID>
+  </ns3:ContractDocumentReference>
+  <ns3:AccountingSupplierParty>
+    <ns3:Party>
+      <EndpointID schemeID="FI:OVT">99999999</EndpointID>
+      <ns3:PartyName>
+        <Name>Dummy Company</Name>
+      </ns3:PartyName>
+      <ns3:PostalAddress>
+        <StreetName>Dummy street</StreetName>
+        <CityName>Helsinki</CityName>
+        <PostalZone>00100</PostalZone>
+        <ns3:Country>
+          <IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+        </ns3:Country>
+      </ns3:PostalAddress>
+      <ns3:PartyTaxScheme>
+        <CompanyID>FI99999999</CompanyID>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:PartyTaxScheme>
+      <ns3:PartyLegalEntity>
+        <RegistrationName>Dummy Company</RegistrationName>
+        <CompanyID schemeID="FI:OVT">99999999</CompanyID>
+        <ns3:RegistrationAddress>
+          <StreetName>Dummy street</StreetName>
+          <CityName>Helsinki</CityName>
+          <PostalZone>00100</PostalZone>
+          <ns3:Country>
+            <IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+          </ns3:Country>
+        </ns3:RegistrationAddress>
+      </ns3:PartyLegalEntity>
+    </ns3:Party>
+  </ns3:AccountingSupplierParty>
+  <ns3:AccountingCustomerParty>
+    <SupplierAssignedAccountID>494783</SupplierAssignedAccountID>
+    <ns3:Party>
+      <EndpointID schemeID="FI:OVT">003799999999</EndpointID>
+      <ns3:PartyName>
+        <Name>Dummy Company</Name>
+      </ns3:PartyName>
+      <ns3:PostalAddress>
+        <StreetName>Dummy street</StreetName>
+        <CityName>Pori</CityName>
+        <PostalZone>28100</PostalZone>
+        <ns3:Country>
+          <IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+        </ns3:Country>
+      </ns3:PostalAddress>
+      <ns3:PartyTaxScheme>
+        <CompanyID>FI99999999</CompanyID>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:PartyTaxScheme>
+      <ns3:PartyLegalEntity>
+        <RegistrationName>Dummy Company</RegistrationName>
+        <CompanyID schemeID="FI:OVT">99999999</CompanyID>
+        <ns3:RegistrationAddress>
+          <StreetName>Dummy street</StreetName>
+          <CityName>Pori</CityName>
+          <PostalZone>28100</PostalZone>
+          <ns3:Country>
+            <IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+          </ns3:Country>
+        </ns3:RegistrationAddress>
+      </ns3:PartyLegalEntity>
+    </ns3:Party>
+  </ns3:AccountingCustomerParty>
+  <ns3:BuyerCustomerParty>
+    <SupplierAssignedAccountID>445375</SupplierAssignedAccountID>
+    <ns3:Party>
+      <EndpointID schemeID="FI:OVT">99999999</EndpointID>
+      <ns3:PartyName>
+        <Name>Dummy Company</Name>
+      </ns3:PartyName>
+      <ns3:PostalAddress>
+        <StreetName>Dummy street</StreetName>
+        <CityName>Pori</CityName>
+        <PostalZone>28100</PostalZone>
+        <ns3:Country>
+          <IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+        </ns3:Country>
+      </ns3:PostalAddress>
+      <ns3:PartyTaxScheme>
+        <CompanyID>FI99999999</CompanyID>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:PartyTaxScheme>
+      <ns3:PartyLegalEntity>
+        <RegistrationName>Dummy Company</RegistrationName>
+        <CompanyID schemeID="FI:OVT">99999999</CompanyID>
+        <ns3:RegistrationAddress>
+          <StreetName>Dummy street</StreetName>
+          <CityName>Pori</CityName>
+          <PostalZone>28100</PostalZone>
+          <ns3:Country>
+            <IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+          </ns3:Country>
+        </ns3:RegistrationAddress>
+      </ns3:PartyLegalEntity>
+    </ns3:Party>
+  </ns3:BuyerCustomerParty>
+  <ns3:PaymentMeans>
+    <ID>99999999999</ID>
+    <PaymentMeansCode listID="UNCL4461">31</PaymentMeansCode>
+    <PaymentDueDate>2018-04-22</PaymentDueDate>
+    <PaymentChannelCode>IBAN</PaymentChannelCode>
+    <PaymentID>99999999999</PaymentID>
+    <ns3:PayeeFinancialAccount>
+      <ID schemeID="IBAN">FI8118099999999999</ID>
+      <ns3:FinancialInstitutionBranch>
+        <ID>BIC</ID>
+        <ns3:FinancialInstitution>
+          <ID schemeID="BIC">NDEAFIHH</ID>
+        </ns3:FinancialInstitution>
+      </ns3:FinancialInstitutionBranch>
+    </ns3:PayeeFinancialAccount>
+  </ns3:PaymentMeans>
+  <ns3:TaxTotal>
+    <TaxAmount currencyID="EUR">0.00</TaxAmount>
+    <ns3:TaxSubtotal>
+      <TaxableAmount currencyID="EUR">2734.54</TaxableAmount>
+      <TaxAmount currencyID="EUR">0.00</TaxAmount>
+      <ns3:TaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0.00</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:TaxCategory>
+    </ns3:TaxSubtotal>
+  </ns3:TaxTotal>
+  <ns3:LegalMonetaryTotal>
+    <LineExtensionAmount currencyID="EUR">2734.54</LineExtensionAmount>
+    <TaxExclusiveAmount currencyID="EUR">2734.54</TaxExclusiveAmount>
+    <TaxInclusiveAmount currencyID="EUR">2734.54</TaxInclusiveAmount>
+    <PayableRoundingAmount currencyID="EUR">0.00</PayableRoundingAmount>
+    <PayableAmount currencyID="EUR">2734.54</PayableAmount>
+  </ns3:LegalMonetaryTotal>
+  <ns3:InvoiceLine>
+    <ID>1</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">282.79</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Moniajoneuvosopimus</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">282.79</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>2</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">-1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">-62.37</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Moniajoneuvosopimus</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">62.37</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>3</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">-1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">-14.97</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Vakuutusmaksuvero</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">14.97</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>4</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">-1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">-128.06</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Moniajoneuvosopimus</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">128.06</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>5</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">0.08</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Moniajoneuvosopimus</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">0.08</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>6</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">0.03</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Vakuutusmaksuvero</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">0.03</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>7</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">14.97</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Vakuutusmaksuvero</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">14.97</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>8</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">67.86</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Vakuutusmaksuvero</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">67.86</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>9</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">2003.89</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Moniajoneuvosopimus</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">2003.89</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>10</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">3.48</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Moniajoneuvosopimus</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">3.48</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>11</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">0.80</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Vakuutusmaksuvero</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">0.80</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>12</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">-1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">-30.68</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Vakuutusmaksuvero</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">30.68</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>13</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">480.38</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Vakuutusmaksuvero</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">480.38</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>14</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">43.45</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Moniajoneuvosopimus</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">43.45</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>15</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">62.39</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Moniajoneuvosopimus</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">62.39</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+  <ns3:InvoiceLine>
+    <ID>16</ID>
+    <InvoicedQuantity unitCode="NAR" unitCodeListID="UNECERec20">1</InvoicedQuantity>
+    <LineExtensionAmount currencyID="EUR">10.50</LineExtensionAmount>
+    <ns3:InvoicePeriod>
+      <StartDate>2016-07-01</StartDate>
+      <EndDate>2017-09-30</EndDate>
+    </ns3:InvoicePeriod>
+    <ns3:Item>
+      <Description>447612/1</Description>
+      <Name>Vakuutusmaksuvero</Name>
+      <ns3:ClassifiedTaxCategory>
+        <ID schemeID="UNCL5305">Z</ID>
+        <Percent>0</Percent>
+        <ns3:TaxScheme>
+          <ID>VAT</ID>
+        </ns3:TaxScheme>
+      </ns3:ClassifiedTaxCategory>
+    </ns3:Item>
+    <ns3:Price>
+      <PriceAmount currencyID="EUR">10.50</PriceAmount>
+      <BaseQuantity>1</BaseQuantity>
+    </ns3:Price>
+  </ns3:InvoiceLine>
+</ns4:Invoice>

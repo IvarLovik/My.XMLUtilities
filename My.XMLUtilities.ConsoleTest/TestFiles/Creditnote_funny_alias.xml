@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns4:CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns3="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ns4="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2">
+	<UBLVersionID>2.1</UBLVersionID>
+	<CustomizationID>urn:www.cenbii.eu:transaction:biitrns014:ver2.0:extended:urn:www.peppol.eu:bis:peppol5a:ver2.0:extended:urn:www.difi.no:ehf:kreditnota:ver2.0</CustomizationID>
+	<ProfileID>urn:www.cenbii.eu:profile:bii05:ver2.0</ProfileID>
+	<ID>246-18-1-000886</ID>
+	<IssueDate>2018-03-20</IssueDate>
+	<DocumentCurrencyCode listID="ISO4217">EUR</DocumentCurrencyCode>
+	<ns3:InvoicePeriod>
+		<StartDate>2017-01-01</StartDate>
+		<EndDate>2017-12-31</EndDate>
+	</ns3:InvoicePeriod>
+	<ns3:BillingReference>
+		<ns3:InvoiceDocumentReference>
+			<ID>452451/2.7</ID>
+		</ns3:InvoiceDocumentReference>
+	</ns3:BillingReference>
+	<ns3:ContractDocumentReference>
+		<ID>452451/2.1</ID>
+	</ns3:ContractDocumentReference>
+	<ns3:ContractDocumentReference>
+		<ID>452451/2.2</ID>
+	</ns3:ContractDocumentReference>
+	<ns3:ContractDocumentReference>
+		<ID>452451/2.3</ID>
+	</ns3:ContractDocumentReference>
+	<ns3:ContractDocumentReference>
+		<ID>452451/2.4</ID>
+	</ns3:ContractDocumentReference>
+	<ns3:ContractDocumentReference>
+		<ID>452451/2.5</ID>
+	</ns3:ContractDocumentReference>
+	<ns3:ContractDocumentReference>
+		<ID>452451/2.6</ID>
+	</ns3:ContractDocumentReference>
+	<ns3:ContractDocumentReference>
+		<ID>452451/2.7</ID>
+	</ns3:ContractDocumentReference>
+	<ns3:AccountingSupplierParty>
+		<ns3:Party>
+			<EndpointID schemeID="FI:OVT">99999999</EndpointID>
+			<ns3:PartyName>
+				<Name>Dummy Company</Name>
+			</ns3:PartyName>
+			<ns3:PostalAddress>
+				<StreetName>Dummy street</StreetName>
+				<CityName>Helsinki</CityName>
+				<PostalZone>00100</PostalZone>
+				<ns3:Country>
+					<IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+				</ns3:Country>
+			</ns3:PostalAddress>
+			<ns3:PartyTaxScheme>
+				<CompanyID>FI99999999</CompanyID>
+				<ns3:TaxScheme>
+					<ID>VAT</ID>
+				</ns3:TaxScheme>
+			</ns3:PartyTaxScheme>
+			<ns3:PartyLegalEntity>
+				<RegistrationName>Dummy Company</RegistrationName>
+				<CompanyID schemeID="FI:OVT">99999999</CompanyID>
+				<ns3:RegistrationAddress>
+					<StreetName>Dummy street</StreetName>
+					<CityName>Helsinki</CityName>
+					<PostalZone>00100</PostalZone>
+					<ns3:Country>
+						<IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+					</ns3:Country>
+				</ns3:RegistrationAddress>
+			</ns3:PartyLegalEntity>
+		</ns3:Party>
+	</ns3:AccountingSupplierParty>
+	<ns3:AccountingCustomerParty>
+		<SupplierAssignedAccountID>464189</SupplierAssignedAccountID>
+		<ns3:Party>
+			<EndpointID schemeID="FI:OVT">99999999</EndpointID>
+			<ns3:PartyName>
+				<Name>Dummy Company</Name>
+			</ns3:PartyName>
+			<ns3:PostalAddress>
+				<StreetName>Dummy StreetName</StreetName>
+				<CityName>Kuopio</CityName>
+				<PostalZone>70701</PostalZone>
+				<ns3:Country>
+					<IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+				</ns3:Country>
+			</ns3:PostalAddress>
+			<ns3:PartyTaxScheme>
+				<CompanyID>FI99999999</CompanyID>
+				<ns3:TaxScheme>
+					<ID>IPT</ID>
+				</ns3:TaxScheme>
+			</ns3:PartyTaxScheme>
+			<ns3:PartyLegalEntity>
+				<RegistrationName>Dummy Company</RegistrationName>
+				<CompanyID schemeID="FI:OVT">99999999</CompanyID>
+				<ns3:RegistrationAddress>
+					<StreetName>Dummy StreetName</StreetName>
+					<CityName>Kuopio</CityName>
+					<PostalZone>70701</PostalZone>
+					<ns3:Country>
+						<IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+					</ns3:Country>
+				</ns3:RegistrationAddress>
+			</ns3:PartyLegalEntity>
+		</ns3:Party>
+	</ns3:AccountingCustomerParty>
+	<ns3:BuyerCustomerParty>
+		<SupplierAssignedAccountID>503010</SupplierAssignedAccountID>
+		<ns3:Party>
+			<EndpointID schemeID="FI:OVT">99999999</EndpointID>
+			<ns3:PartyName>
+				<Name>Dummy Company</Name>
+			</ns3:PartyName>
+			<ns3:PostalAddress>
+				<StreetName>Dummy StreetName</StreetName>
+				<CityName>Kuopio</CityName>
+				<PostalZone>70701</PostalZone>
+				<ns3:Country>
+					<IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+				</ns3:Country>
+			</ns3:PostalAddress>
+			<ns3:PartyTaxScheme>
+				<CompanyID>FI99999999</CompanyID>
+				<ns3:TaxScheme>
+					<ID>VAT</ID>
+				</ns3:TaxScheme>
+			</ns3:PartyTaxScheme>
+			<ns3:PartyLegalEntity>
+				<RegistrationName>Dummy Company</RegistrationName>
+				<CompanyID schemeID="FI:OVT">99999999</CompanyID>
+				<ns3:RegistrationAddress>
+					<StreetName>c/o Marsh</StreetName>
+					<CityName>Kuopio</CityName>
+					<PostalZone>70701</PostalZone>
+					<ns3:Country>
+						<IdentificationCode listID="ISO3166-1:Alpha2">FI</IdentificationCode>
+					</ns3:Country>
+				</ns3:RegistrationAddress>
+			</ns3:PartyLegalEntity>
+		</ns3:Party>
+	</ns3:BuyerCustomerParty>
+	<ns3:PaymentMeans>
+		<ID>99999999999</ID>
+		<PaymentMeansCode listID="UNCL4461">31</PaymentMeansCode>
+		<PaymentDueDate>2018-03-24</PaymentDueDate>
+		<PaymentChannelCode>IBAN</PaymentChannelCode>
+		<PaymentID>99999999999</PaymentID>
+		<ns3:PayeeFinancialAccount>
+			<ID schemeID="IBAN">FI8118099999999999</ID>
+			<ns3:FinancialInstitutionBranch>
+				<ID>BIC</ID>
+				<ns3:FinancialInstitution>
+					<ID schemeID="BIC">NDEAFIHH</ID>
+				</ns3:FinancialInstitution>
+			</ns3:FinancialInstitutionBranch>
+		</ns3:PayeeFinancialAccount>
+	</ns3:PaymentMeans>
+	<ns3:TaxTotal>
+		<TaxAmount currencyID="EUR">-154.76</TaxAmount>
+		<ns3:TaxSubtotal>
+			<TaxableAmount currencyID="EUR">-644.83</TaxableAmount>
+			<TaxAmount currencyID="EUR">-154.76</TaxAmount>
+			<ns3:TaxCategory>
+				<ID schemeID="UNCL5305">Z</ID>
+				<Percent>24.00</Percent>
+				<ns3:TaxScheme>
+					<ID>IPT</ID>
+				</ns3:TaxScheme>
+			</ns3:TaxCategory>
+		</ns3:TaxSubtotal>
+	</ns3:TaxTotal>
+	<ns3:LegalMonetaryTotal>
+		<LineExtensionAmount currencyID="EUR">-644.83</LineExtensionAmount>
+		<TaxExclusiveAmount currencyID="EUR">-644.83</TaxExclusiveAmount>
+		<TaxInclusiveAmount currencyID="EUR">-799.59</TaxInclusiveAmount>
+		<PayableRoundingAmount currencyID="EUR">0.00</PayableRoundingAmount>
+		<PayableAmount currencyID="EUR">-799.59</PayableAmount>
+	</ns3:LegalMonetaryTotal>
+	<ns3:CreditNoteLine>
+		<ID>1</ID>
+		<CreditedQuantity unitCode="NAR" unitCodeListID="UNECERec20">-1</CreditedQuantity>
+		<LineExtensionAmount currencyID="EUR">-644.83</LineExtensionAmount>
+		<ns3:InvoicePeriod>
+			<StartDate>2017-01-01</StartDate>
+			<EndDate>2017-12-31</EndDate>
+		</ns3:InvoicePeriod>
+		<ns3:Item>
+			<Description>452451/2</Description>
+			<Name>Kuntavakuutus</Name>
+			<ns3:ClassifiedTaxCategory>
+				<ID schemeID="UNCL5305">Z</ID>
+				<Percent>24.00</Percent>
+				<ns3:TaxScheme>
+					<ID>IPT</ID>
+				</ns3:TaxScheme>
+			</ns3:ClassifiedTaxCategory>
+		</ns3:Item>
+		<ns3:Price>
+			<PriceAmount currencyID="EUR">644.83</PriceAmount>
+			<BaseQuantity>1</BaseQuantity>
+		</ns3:Price>
+	</ns3:CreditNoteLine>
+</ns4:CreditNote>
