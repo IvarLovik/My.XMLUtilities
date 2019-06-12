@@ -56,6 +56,14 @@ namespace My.XMLUtilities.ConsoleTest
                             new NamespaceUriAlias() {Alias = "cac", Uri = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" }
                         }
                     },
+                    new NamespaceDoc()
+                    {
+                        RootNamespace = "testing",
+                        Namespaces = new NamespaceUriAliasList
+                        {
+                            new NamespaceUriAlias() {Alias = "x", Uri = "xtest" }
+                        }
+                    },
                 };
 
                 

@@ -3,3 +3,5 @@
 ################################################################################
 
 *.cache
+/.vs/My.XMLUtilities/v16/Server/sqlite3
+/.vs/My.XMLUtilities/v16
